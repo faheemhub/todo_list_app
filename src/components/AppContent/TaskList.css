@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    height: 100%;
+
+    .taskList{
+        width: 60%;
+        .taskTable{
+            width: 100%;
+            text-align: center;
+            
+            .chkbx-div{
+                /* background-color: gray; */
+                padding-right: 5px;
+
+                span{color: black;}
+            }
+        }
+        .taskTable, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+    } 
+}
+
+
